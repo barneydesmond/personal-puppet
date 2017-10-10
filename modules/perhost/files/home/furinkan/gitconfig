@@ -1,0 +1,27 @@
+[user]
+	name = Barney Desmond
+	email = barneydesmond@gmail.com
+
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+
+[log]
+	date = local
+
+[alias]
+	last = log -1 HEAD
+	st = status
+	di = diff
+	br = branch -vv
+	re = remote -v
+	slog = log --pretty=oneline --abbrev-commit
+	since = !git log $(git merge-base --fork-point master)..HEAD
+
+[push]
+	default = simple
+
+[core]
+	excludesfile = ~/.gitignore

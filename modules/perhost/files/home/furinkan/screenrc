@@ -1,0 +1,6 @@
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.kW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..r} %l %{..Y} %Y-%m-%d %c"
+defutf8 on
+term screen-256color

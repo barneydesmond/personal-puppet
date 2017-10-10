@@ -1,0 +1,51 @@
+---
+classes:
+  - soe
+
+soe::packages:
+  - ack-grep
+  - build-essential
+  - git
+#  - irssi
+#  - mariadb-server-10.0
+  - mlocate
+#  - nginx-full
+#  - postgresql-9.4
+  - rsync
+  - screen
+  - strace
+
+soe::users:
+  - furinkan
+
+ssh_authorized_keys:
+  'bdesmond1 @ DET workstation windows 00232497CF82P RSA 2016-11-01':
+    user: 'furinkan'
+    type: 'ssh-rsa'
+    key: |-
+      AAAAB3NzaC1yc2EAAAABJQAAAgEAou0xCBzkV03QqHPVQwfx7iq+vNAxGNWYyBdyt4yua4nH5DKB2dZtGzIbLGxquAHdrY+YnJXIv0WyjoqMH1lk0fHnwyi/cvHHlxo/XqDchGVheD4a7+Vo/VflhR8kxUI1B/Jailq04vZ3RVI9mA256fkwao1T/qwEgJ5g8nMD5lAmCAX2ZlUV2Rm7GUKVNCRLMbshB2IsFkE6RMmcqhu9p7dVZZOaFRdvK2lfBmjwNqIvKnAFkYbWvv+FF7mQS/I1fcBe1Qfu92rQqD+MPEc3vRCVGmt5PQc7h7Ctluf6sGn8TLIT4jSXLCya2yHb1hw+UxbdLa/2RdTDb4++JGK6SyHqT65Qez90TQJU5iplAeJfYuvO5ZIxk29JDmi/6QMDHuM0gIk+oGw4sweJVchEZ3HCSDUysbMU0vZgZKGDN0wW/uSwYysgYZd38beheytTvS2l3/9oPpe8he6iqS9uXEaOZgOm922l8fZa3NqYIrp6XUfsMYWdZTXxOxawnRxeKuMAzR883SxuIV71//BE+ZK2fItpyVbmpMH49iUk9P53iWTaJk53xuznbgEZ16NRfSIvbwToBuS2GtDIgRQzLTpNOhxMTpjv510tiY8VlGSq9FjFCR23GKqGdnFOSrqcC+50iotEzvhqhC2jW8SXNeUXMq3f33ZJR4Ueg3IZVr0=
+
+  'Barney Desmond - amatsukaze - root':
+    user: 'furinkan'
+    type: 'ssh-rsa'
+    key: |-
+      AAAAB3NzaC1yc2EAAAADAQABAAACAQC4SM51QC9pcBbTTfjLx0MOv23W8PZmGFEuU6Xqy/+qw/geZcHB0bpTjTmigNO/TAEcQztHBqw6FcWLeN81rdnRGo3lrMQuJYsQGHyolFZ+U838taP+LKIjpXdt8oti5FSmZu6L9NzofGkegsuoZaaQ8u2isFj+rbdhY1Y8KOCsH6KkUAcig8FoTJsrxAeQN26yYFZOtQUBSG+kZnr+Rm1XsINbbz8VEjxOt/yXpgFKXOckaPb5j/c3MC28hBKF7n+Xzm+H2NcpCPSRFTrEyOjCt4f5rFyNLbtXRz36A6h/KGSrDwDFLkrKr9f962M0l0IqMTB1eiEzHpKsmN/iR92D2lQTBFiWSz9wmDMNEbWaFx1XEEpTLmS7AnwCys6AJfpcUG8HjnJhbAmO76dEAP8TYtWMUr1by1ty1EN1I8UiAuAxNLq8GT8OXrk4J+kcYTT0s1g0nQeYNTtlXi/jNl7QWaUv++XbKV9tv4Vb/qd9rBvopR/4cMF5n/mtAcs6vwPEbeEOsbASNo9wygZp4cd4EHOO1zgh/hu6ujXyRpFr3Vv23iRaCsfqRMndG0n7nrt2L4tmrURNN1s+dy14JldJjdVLZAwtW09sTW+6G651bEPB25dVUb24Rftq/cCXPIjmPKTW6n+tP3rrguupvEiC7X+GbPa5LLfTnpMCm33R0w==
+
+  'furinkan - kashima 2016-04-30':
+    user: 'furinkan'
+    type: 'ssh-rsa'
+    key: |-
+      AAAAB3NzaC1yc2EAAAABJQAAAgEApRVsTtkD295M+ripi+aGr4MRKaug5t2vIljcf6aNuj1EbQeZuP6SUGi1X+JMOyMw8m7FUabu6jRVLmHG3hv/n6VPYzx5yg7HTAv3Hl0wEk6lMfcsTjNyH7UkJN6ccDNAebMMJFywS50khqscHq8YDFZRmW7TNICfAI4iFJDe3h0Td+cCgPaERaio7qcOC6idAExQVZ6Y3Hy4ARM6VCHjukLKrQ6Fwe0Sr9DjXQiErKqcjgUIA2Q3VZdtgiVqEyVmYUlr+1Olfm13kq9MSFSCTJZ79SNEsaapAXYwRQDuV5LJGO5z2+L3hnH9yr2PTzild60ug52BSiqqH/+ocGKtS6JtkbSdJ0LDrqyDFmnAOEtaN9qJwW2XVNI/QGrF6Fw5IpY1NNbsoDT73vCl4R1crtNJ6LNj1laRRHGGqWWCagbUYgK44+tiEM6z0YnSlBnBKRW4pUAOtSJAsApOnUiGRXNQIbi8isRo1eGtZKFRTWY+YlHDGFlhqxXbnsncFZm1BLrmxiF0pFSXVyoMl3lSdzPy99+/qVtKVIwYfOc9HVj0KYwGUE05iadnUkCny1P6PW0y5nZaOJWukHT/co7RX2cs/mxfjTOcBh55XgXMiQCXChI8dd+NRzW0HcCjzQE2tFfrWZIs76jbH2uOT0uTPO03HkBznWT4y9qoGyYQbb8=
+
+  'bdesmond1@yamato DET workstation linux':
+    user: 'furinkan'
+    type: 'ssh-rsa'
+    key: |-
+      AAAAB3NzaC1yc2EAAAADAQABAAACAQCemB52lLK47UxhQJNbdag1gJ1Ur5spGReqdXCo4a/tx97IzfYJd6x78PVJnLra/qub7o/j/pwIrNRs8BL5JTV+fnM/dTWsoY1KoiZHfYPY30coGlr7/jWOH0ygzIKMUbL0cys61RWEw7881Jj+avAkMla/oHXhQIVBqav4GOMtaxDAa784w8pJik4gizk62uH9X9Gun4Z+G0oOrcPDmna7Mnr/QJkRzd9jIOH9ugFuIYyr0ZZ9jcvCQ29Y33gJt0uuH8VlB2u1Vs7R0vC/nPQTh1S0XdKoBA/w7FMN2ZUtg9kPfOR0sCrduamsOl/hKi1YKi6MteZmajDfhedS2GMs46NChHjSP7vkkGMk/0BqEfYu7SFbsAratLtFeoSkft9+dXReulFQNXdXdih3/Q7KdoXiUvrpf7tYrvr+tLT8Qwi8iE1NL8TCy0hjeTgxHA8u1dn8AeQeEZucuaESflK+M5g0IUYxVPz/D4PfgvdYOnSfNrX5GMZ5JlZmRhEzMHVFDa+oqBpmbhgV9c1hiEcqbNI4JJY9pGOCqoF2ok5QIDdUnFXWrEXZYHYsh1tc/DWPpRMkeZ/6I+wGNR94gAlo5bhVSf1QYgPh4wqzekcVe/QKrPw+FtLZzLYpq0S9gYpWBbeJ5mzKw8Zlxo+6iyw4JpHFiyvnHglQHgtSmNgoqw==
+
+  'Maki 2':
+    user: 'furinkan'
+    type: 'ssh-rsa'
+    key: |-
+      AAAAB3NzaC1yc2EAAAADAQABAAABgQDIQBDVEHC1/+V3HI6+9eynn64hpmceYgVF1P5F0+hzgXlQyKYt1rBHeYI1Dy1wAnW5++WTR8Z0E+cNwSA3Efkx7fbDDgABzGlGRmjN60QUDet13iqoLcRRGL2zixwcKKb+ZVhgepVY9SSH6TsAxq+RxT6urB/HUSpSN2plUa4fiHJ+1TUPcdtcpqW/LTOqdgFA4tdQ439zWjfH44RXTsI7ehJFGX7lYPQNPylq2iMEyUWJI23RLj6EoLmfUvIdbHu97AKSILs1QexUh7Qi040X9sbqU0Zy3E914mhfSIFMw9q6QiZRvwnxfzZm9W6Sl7cquP76X6pVlHdcbri7695NsEdvkorI/mie2k+W4sQHAY8vgUXRKvcefT4KK6zUj77l3A1O2RpkcUABHASb8ZazfVB/xOcLENdwdFPARLvZry038GGU8hEHiF+zvy8DAvVH3XUXKFqLfu0HYJSWh7d3peuLITPkyYyUC8KyBlFDU+IZ3USRNOyP7xIbLqds4dU=
+
