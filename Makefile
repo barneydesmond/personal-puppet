@@ -7,5 +7,7 @@ update:
 pull:
 	git pull
 
+full: pull update apply
 
-.PHONY: apply aptitude-update
+
+.PHONY: apply update pull full
