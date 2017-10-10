@@ -1,11 +1,21 @@
 class soe::packages {
   package { [
     'ack',
-    'build-essential',
     'git',
     'mlocate',
     'rsync',
     'screen',
     'strace',
   ]: }
+
+  case $osfamily {
+    'RedHat': {
+    }
+    'Debian': {
+      package { [
+        'build-essential',
+      ]: }
+    }
+    default:  { fail("Your osfamily ${::facts['osfamily']} is not supported") }
+  }
 }
