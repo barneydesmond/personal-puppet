@@ -7,9 +7,9 @@ class perhost::arkroyal {
 
   File {
     require => User['furinkan'],
-    owner  => 'furinkan',
-    group  => 'users',
-    mode   => '0644',
+    owner   => 'furinkan',
+    group   => 'users',
+    mode    => '0644',
   }
   file {
     '/home/furinkan/.bashrc':
