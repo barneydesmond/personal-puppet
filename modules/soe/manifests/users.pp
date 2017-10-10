@@ -1,6 +1,7 @@
 # Manage users
 class soe::users {
-  soe::user { 'furinkan': }
+  # furinkan is on every box
+  class { 'soe::furinkan': }
 
   # root is special and is always handled
   file {
