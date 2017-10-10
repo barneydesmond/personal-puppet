@@ -10,6 +10,9 @@ class soe::packages {
 
   case $osfamily {
     'RedHat': {
+      package { [
+        'bash-completion-extras',
+      ]: }
     }
     'Debian': {
       package { [
