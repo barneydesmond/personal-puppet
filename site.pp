@@ -1,6 +1,14 @@
 node arkroyal {
 	class { 'soe': }
-	class { "perhost::${::hostname}": }
+
+	package { [
+		'irssi',
+		]: ensure => present
+	}
+
+	systemd::instance { 'furinkan': }
+
+	class { 'nginx': }
 }
 
 node default {
