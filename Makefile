@@ -4,5 +4,8 @@ apply:
 update:
 	aptitude update
 
+pull:
+	git pull
+
 
 .PHONY: apply aptitude-update
