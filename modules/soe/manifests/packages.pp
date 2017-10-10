@@ -16,6 +16,6 @@ class soe::packages {
         'build-essential',
       ]: }
     }
-    default:  { fail("Your osfamily ${::facts['osfamily']} is not supported") }
+    default:  { fail("Your osfamily ${osfamily} is not supported") }
   }
 }
