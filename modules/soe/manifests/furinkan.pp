@@ -1,5 +1,7 @@
 # arkroyal is a shell host, mostly running irssi in a screen session
 class soe::furinkan {
+  soe::user { 'furinkan': }
+
   File {
     require => User['furinkan'],
     owner   => 'furinkan',
