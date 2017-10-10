@@ -1,4 +1,11 @@
 class soe::packages {
-  $packages = hiera('soe::packages')
-  package { $packages: }
+  package { [
+    'ack',
+    'build-essential',
+    'git',
+    'mlocate',
+    'rsync',
+    'screen',
+    'strace',
+  ]: }
 }

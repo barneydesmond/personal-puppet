@@ -1,23 +1,4 @@
 ---
-classes:
-  - soe
-
-soe::packages:
-  - ack-grep
-  - build-essential
-  - git
-#  - irssi
-#  - mariadb-server-10.0
-  - mlocate
-#  - nginx-full
-#  - postgresql-9.4
-  - rsync
-  - screen
-  - strace
-
-soe::users:
-  - furinkan
-
 ssh_authorized_keys:
   'bdesmond1 @ DET workstation windows 00232497CF82P RSA 2016-11-01':
     user: 'furinkan'

@@ -1,7 +1,6 @@
 # Manage users
 class soe::users {
-  $users = hiera('soe::users')
-  soe::user { $users: }
+  soe::user { 'furinkan': }
 
   # root is special and is always handled
   file {
