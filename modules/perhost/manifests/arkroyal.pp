@@ -27,4 +27,6 @@ class perhost::arkroyal {
   }
 
   systemd::instance { 'furinkan': }
+
+  class { 'nginx': }
 }
