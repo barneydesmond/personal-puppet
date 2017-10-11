@@ -15,8 +15,9 @@ node nadeko {
 	class { 'soe': }
 
 	# Nadeko bot
-	file { '/opt/nadeko':
-		ensure => directory,
+	file {
+		'/opt/nadeko':      ensure => directory;
+		'/opt/nadeko/conf': ensure => directory;
 	}
 }
 
