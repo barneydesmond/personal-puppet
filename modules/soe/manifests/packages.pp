@@ -6,6 +6,7 @@ class soe::packages {
     'rsync',
     'screen',
     'strace',
+    'tcpdump',
   ]: }
 
   case $osfamily {
