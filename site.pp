@@ -9,6 +9,10 @@ node arkroyal {
 	systemd::instance { 'furinkan': }
 
 	class { 'nginx': }
+}
+
+node nadeko {
+	class { 'soe': }
 
 	# Nadeko bot
 	file { '/opt/nadeko':
