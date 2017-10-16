@@ -3,6 +3,7 @@ class soe::packages {
     'ack',
     'git',
     'mlocate',
+    'nmap',
     'rsync',
     'screen',
     'strace',
