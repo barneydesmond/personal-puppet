@@ -8,6 +8,7 @@ class soe::packages {
     'screen',
     'strace',
     'tcpdump',
+    'whois',
   ]: }
 
   case $osfamily {
