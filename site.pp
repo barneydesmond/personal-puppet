@@ -1,3 +1,4 @@
+# All my nodes
 node arkroyal {
 	class { 'soe': }
 
@@ -8,7 +9,10 @@ node arkroyal {
 
 	systemd::instance { 'furinkan': }
 
-	class { 'nginx': }
+	class { 'nginx': } ->
+	class { 'letsencrypt_nginx': }
+	letsencrypt_nginx::cert { '765.agency': }
+	letsencrypt_nginx::cert { 'arkroyal.meidokon.net': }
 }
 
 node nadeko {
