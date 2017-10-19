@@ -9,6 +9,15 @@ node arkroyal {
 
 	systemd::instance { 'furinkan': }
 
+	file {
+		'/home/furinkan/public_html':
+			ensure  => 'directory',
+			owner   => 'furinkan',
+			group   => 'users',
+			mode    => '0755',
+			require => User['furinkan'];
+	}
+
 	class { 'nginx': } ->
 	class { 'letsencrypt_nginx': }
 	letsencrypt_nginx::cert { '765.agency': }
