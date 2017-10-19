@@ -1,6 +1,9 @@
 apply:
 	puppet apply /etc/puppet/code/site.pp
 
+noop:
+	puppet apply --noop /etc/puppet/code/site.pp
+
 update:
 	[ -f /etc/debian_version ] && aptitude update || true
 	[ -f /etc/redhat-release ] && yum check-update || true
