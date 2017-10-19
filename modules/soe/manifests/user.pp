@@ -10,11 +10,15 @@ define soe::user {
     purge_ssh_keys => true,
   }
 
-  file { "/home/${name}/.ssh":
-    ensure => directory,
-    mode   => '0700',
-    owner  => $name,
-    group  => 'users',
+  file {
+    "/home/${name}":
+      ensure => directory,
+      mode   => '0701';
+    "/home/${name}/.ssh":
+      ensure => directory,
+      owner  => $name,
+      group  => 'users',
+      mode   => '0700';
   }
 
   $ssh_authorized_keys = hiera_hash('ssh_authorized_keys', undef)
