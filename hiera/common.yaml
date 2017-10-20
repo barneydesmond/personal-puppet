@@ -24,7 +24,7 @@ ssh_authorized_keys:
     key: |-
       AAAAB3NzaC1yc2EAAAADAQABAAACAQCemB52lLK47UxhQJNbdag1gJ1Ur5spGReqdXCo4a/tx97IzfYJd6x78PVJnLra/qub7o/j/pwIrNRs8BL5JTV+fnM/dTWsoY1KoiZHfYPY30coGlr7/jWOH0ygzIKMUbL0cys61RWEw7881Jj+avAkMla/oHXhQIVBqav4GOMtaxDAa784w8pJik4gizk62uH9X9Gun4Z+G0oOrcPDmna7Mnr/QJkRzd9jIOH9ugFuIYyr0ZZ9jcvCQ29Y33gJt0uuH8VlB2u1Vs7R0vC/nPQTh1S0XdKoBA/w7FMN2ZUtg9kPfOR0sCrduamsOl/hKi1YKi6MteZmajDfhedS2GMs46NChHjSP7vkkGMk/0BqEfYu7SFbsAratLtFeoSkft9+dXReulFQNXdXdih3/Q7KdoXiUvrpf7tYrvr+tLT8Qwi8iE1NL8TCy0hjeTgxHA8u1dn8AeQeEZucuaESflK+M5g0IUYxVPz/D4PfgvdYOnSfNrX5GMZ5JlZmRhEzMHVFDa+oqBpmbhgV9c1hiEcqbNI4JJY9pGOCqoF2ok5QIDdUnFXWrEXZYHYsh1tc/DWPpRMkeZ/6I+wGNR94gAlo5bhVSf1QYgPh4wqzekcVe/QKrPw+FtLZzLYpq0S9gYpWBbeJ5mzKw8Zlxo+6iyw4JpHFiyvnHglQHgtSmNgoqw==
 
-  'Maki 2':
+  'Maki':
     user: 'furinkan'
     type: 'ssh-rsa'
     key: |-
