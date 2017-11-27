@@ -22,6 +22,7 @@ node arkroyal {
 	class { 'letsencrypt_nginx': }
 	letsencrypt_nginx::cert { '765.agency': }
 	letsencrypt_nginx::cert { 'arkroyal.meidokon.net': }
+	letsencrypt_nginx::cert { 'j.furinkan.meidokon.net': }
 }
 
 node nadeko {
